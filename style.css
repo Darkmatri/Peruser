@@ -1,0 +1,544 @@
+@font-face {
+    font-family: Enchanted;
+    src: url(./font/Enchanted\ Land.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.background {
+    background-image: url(./images/background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.book {
+    width: 550px;
+    height: 95vh;
+    position: relative;
+    transition-duration: 1s;
+    top: 20px;
+    left: 20px;
+    perspective: 1500;
+}
+
+input {
+    display: none;
+}
+
+.front-cover,
+.back-cover {
+    background: linear-gradient(#379237, #82CD47, #367E18);
+    width: 100%;
+    height: 100%;
+    border-radius: 0 15px 15px 0;
+    box-shadow: #000 5px 6px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./images/cover1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.front-cover {
+    position: absolute;
+    z-index: 18;
+    transform-origin: center left;
+    transition: all 1s ease-out;
+}
+
+.front-cover label {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    position: absolute;
+}
+
+.back-cover {
+    position: relative;
+    z-index: -1;
+}
+
+#title {
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    font-family: Enchanted;
+    text-transform: uppercase;
+    font-size: 65px;
+}
+
+#checkbox:checked~.book {
+    transform: translateX(700px);
+}
+
+#checkbox:checked~.book .front-cover {
+    transition: transform 1.5s, z-index 0.5s 0.5s;
+    transform: rotateY(-180deg);
+    z-index: 17;
+}
+
+#checkbox-pg0:checked~.book .front-cover {
+    z-index: 1;
+}
+
+.pages {
+    position: absolute;
+    background-color: #fff;
+    width: 530px;
+    height: 90vh;
+    border-radius: 0 15px 15px 0;
+    box-shadow: #aaaaaa 3px 8px 5px;
+    margin-top: 13px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    transform-origin: left;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    transition-duration: 2s;
+}
+
+.front-page {
+    position: absolute;
+    width: 500px;
+    height: 70vh;
+    backface-visibility: hidden;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+.back-page {
+    background-color: #d6d6d6;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    z-index: 99;
+    transform: rotateY(180deg);
+    border-radius: 15px 0 0 15px;
+}
+
+.front-page img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 5px;
+    top: 3%;
+    border-radius: 50%;
+}
+
+.front-page h2 {
+    position: relative;
+    top: 4%;
+}
+
+.front-page h2 a {
+    color: violet;
+}
+
+.front-page h2 a:checked {
+    color: purple;
+    cursor: pointer;
+}
+
+.front-page h6 {
+    font-size: 20px;
+    color: #9d9a9a;
+}
+
+.front-page p {
+    font-size: 25px;
+    line-height: 1.2;
+    font-family: Enchanted;
+    padding: 25px;
+    /* text-align: left;
+    background: -webkit-linear-gradient(#fe0000, #136aff, #00f148);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+.front-page span {
+    position: relative;
+    top: 5%;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: oblique;
+    font-family: Enchanted;
+    /* text-align: center;
+    background: linear-gradient(90deg, #fe0000, #136aff, #00f148);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+.pages .arrows {
+    position: absolute;
+    bottom: 50px;
+    font-size: 25px;
+    width: 100%;
+}
+
+.arrows .left {
+    position: absolute;
+    left: 1rem;
+    width: 40px;
+    color: red;
+    cursor: pointer;
+}
+
+.arrows .right {
+    position: absolute;
+    right: 1rem;
+    width: 40px;
+    color: red;
+    cursor: pointer;
+}
+
+.pages .arrows a {
+    position: relative;
+    top: 5px;
+    font-size: 25px;
+    color: brown;
+}
+
+#pg0 {
+    z-index: 16;
+}
+
+#pg1 {
+    z-index: 15;
+}
+
+#pg2 {
+    z-index: 14;
+}
+
+#pg3 {
+    z-index: 13;
+}
+
+#pg4 {
+    z-index: 12;
+}
+
+#pg5 {
+    z-index: 11;
+}
+
+#pg6 {
+    z-index: 10;
+}
+
+#pg7 {
+    z-index: 9;
+}
+
+#pg8 {
+    z-index: 8;
+}
+
+#pg9 {
+    z-index: 7;
+}
+
+#pg10 {
+    z-index: 6;
+}
+
+#pg11 {
+    z-index: 5;
+}
+
+#pg12 {
+    z-index: 4;
+}
+
+#pg13 {
+    z-index: 3;
+}
+
+#pg14 {
+    z-index: 2;
+}
+
+#pg15 {
+    z-index: 1;
+}
+
+#checkbox-pg1:checked~.book .pages {
+    box-shadow: 0 0 3px rgb(99, 98, 98);
+}
+
+#checkbox-pg0:checked~.book #pg0 {
+    transition: transform 1.5s, z-index 0.5s 0.5s;
+    transform: rotateY(-180deg);
+    z-index: 2;
+}
+
+#checkbox-pg1:checked~.book #pg1 {
+    transition: transform 1.5s, z-index 0.5s 0.5s;
+    transform: rotateY(-180deg);
+    z-index: 3;
+}
+
+#checkbox-pg2:checked~.book #pg2 {
+    transition: transform 1.5s, z-index 0.5s 0.5s;
+    transform: rotateY(-180deg);
+    z-index: 4;
+}
+
+#checkbox-pg3:checked~.book #pg3 {
+    transition: transform 1.5s, z-index 0.5s 0.5s;
+    transform: rotateY(-180deg);
+    z-index: 5;
+}
+
+#checkbox-pg4:checked~.book #pg4 {
+    transition: transform 1.5s, z-index 0.5s 0.5s;
+    transform: rotateY(-180deg);
+    z-index: 6;
+}
+
+#checkbox-pg5:checked~.book #pg5 {
+    transition: transform 1.5s, z-index 0.5s 0.5s;
+    transform: rotateY(-180deg);
+    z-index: 7;
+}
+
+#checkbox-pg6:checked~.book #pg6 {
+    transition: transform 1.5s, z-index 0.5s 0.5s;
+    transform: rotateY(-180deg);
+    z-index: 8;
+}
+
+#checkbox-pg7:checked~.book #pg7 {
+    transition: transform 1.5s, z-index 0.5s 0.5s;
+    transform: rotateY(-180deg);
+    z-index: 9;
+}
+
+#checkbox-pg8:checked~.book #pg8 {
+    transition: transform 1.5s, z-index 0.5s 0.5s;
+    transform: rotateY(-180deg);
+    z-index: 10;
+}
+
+#checkbox-pg9:checked~.book #pg9 {
+    transition: transform 1.5s, z-index 0.5s 0.5s;
+    transform: rotateY(-180deg);
+    z-index: 11;
+}
+
+#checkbox-pg10:checked~.book #pg10 {
+    transition: transform 1.5s, z-index 0.5s 0.5s;
+    transform: rotateY(-180deg);
+    z-index: 12;
+}
+
+#checkbox-pg11:checked~.book #pg11 {
+    transition: transform 1.5s, z-index 0.5s 0.5s;
+    transform: rotateY(-180deg);
+    z-index: 13;
+}
+
+#checkbox-pg12:checked~.book #pg12 {
+    transition: transform 1.5s, z-index 0.5s 0.5s;
+    transform: rotateY(-180deg);
+    z-index: 14;
+}
+
+#checkbox-pg13:checked~.book #pg13 {
+    transition: transform 1.5s, z-index 0.5s 0.5s;
+    transform: rotateY(-180deg);
+    z-index: 15;
+}
+
+#checkbox-pg14:checked~.book #pg14 {
+    transition: transform 1.5s, z-index 0.5s 0.5s;
+    transform: rotateY(-180deg);
+    z-index: 16;
+}
+
+.bookmark {
+    background: purple;
+    position: absolute;
+    width: 150px;
+    right: -50px;
+    top: 25px;
+    border-radius: 25px;
+    transition: all .5s linear;
+    padding: 25px;
+}
+
+.bookmark:hover {
+    right: -130px;
+}
+
+#search {
+    position: relative;
+    color: #fff;
+    font-size: 1.6rem;
+    right: -40px;
+}
+
+.welcome-script img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 1s linear;
+    height: 650px;
+}
+
+.text {
+    position: absolute;
+    right: 6%;
+    top: 4%;
+    width: 630px;
+    transition: all 1s linear;
+    height: 80vh;
+    padding: 40px;
+    border-radius: 25px;
+}
+
+.text h2 {
+    padding: 15px;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text p {
+    font-size: 16px;
+}
+
+.text #end {
+    position: absolute;
+    right: 15%;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#checkbox:checked~.welcome-script img {
+    right: -100%;
+}
+
+#checkbox:checked~.text {
+    right: -100%;
+}
+
+.search {
+    position: relative;
+    height: 3rem;
+    top: 25px;
+    text-align: center;
+}
+
+.search input {
+    position: relative;
+    display: flex;
+    width: 20rem;
+    height: 2rem;
+    left: 35%;
+    top: 5px;
+    padding-left: 5px;
+}
+
+.search .fa-solid {
+    color: #00f148;
+    position: relative;
+    font-size: 20px;
+    top: -20px;
+    right: -65px;
+}
+
+.search input::placeholder {
+    position: relative;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    margin: 50px;
+}
+
+.wrapper .books {
+    padding: 1.5rem;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.wrapper .books .cover {
+    max-width: 250px;
+    max-height: 350px;
+    position: relative;
+    bottom: 20px;
+}
+
+.wrapper .books .details .title,
+h5 {
+    font-family: 'DM Serif Display', serif;
+}
+
+.wrapper .books .review {
+    position: relative;
+    top: 25px;
+    left: -60px;
+}
+
+.wrapper .books #price{
+    color: red;
+    text-decoration: line-through;
+    opacity: .5;
+}
+
+.wrapper .books .review .fa-solid {
+    color: gold;
+}
+
+@media (max-width: 1040px) {
+
+    .search input {
+        left: 5%;
+        width: 85%;
+    }
+
+    .search .fa-solid {
+        right: -35%;
+    }
+
+}
+
+@media (max-width: 850px) {
+
+    .wrapper .books .review {
+        left: -35%;
+
+    }
+ 
+
+}
+
+@media (max-width: 550px) {
+
+    .wrapper .books .review {
+        left: -40%;
+
+    }
+
+}
