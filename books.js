@@ -2,15 +2,13 @@ let fliterinput = document.getElementById("searchbar");
 let http = new XMLHttpRequest();
 let grid = document.querySelector(".cards");
 
-// fetch('https://freetestapi.com/api/v1/books')
-fetch("./list.json")
+fetch("/list.json")
     .then(res => res.json())
     .then(json => {
         for (let value of json) {
             addElement(grid, value);
         }
     });
-
 
 fliterinput.addEventListener('keyup', fliterproducts);
 
@@ -22,7 +20,7 @@ function fliterproducts() {
         let span = item[i].querySelector(".title");
 
         if (span.innerHTML.toUpperCase().indexOf(filtervalue) > -1) {
-            item[i].style.display = "initial";
+            item[i].style.display = "";
         } else {
             item[i].style.display = "none";
 
@@ -49,7 +47,7 @@ http.onload = function(){
                     <h2 class="title">${item.name}</h2>
                     <h5 class="author">${item.author}</h5>
                     <h3 class="gener">${item.category}</h3>
-                    <h3>${item.price}<span id="price">${item.span}</span></h3>
+                    <h3>${item.price} <span id="price">${item.span}</span></h3>
                     <div class="review">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>

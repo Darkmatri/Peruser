@@ -148,11 +148,12 @@ input {
 }
 
 .front-page h2 a {
-    color: violet;
+    color: rgb(250, 85, 250);
 }
 
-.front-page h2 a:checked {
-    color: purple;
+.front-page h2 a:hover {
+    color: rgb(0, 171, 54);
+    transition: all .5s linear;
     cursor: pointer;
 }
 
@@ -166,10 +167,6 @@ input {
     line-height: 1.2;
     font-family: Enchanted;
     padding: 25px;
-    /* text-align: left;
-    background: -webkit-linear-gradient(#fe0000, #136aff, #00f148);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
 }
 
 .front-page span {
@@ -470,13 +467,14 @@ input {
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
-    margin: 50px;
 }
 
 .cards .books {
     padding: 1.5rem;
-    /* display: flex;
-    flex-direction: column; */
+}
+
+.cards .books .details{
+    gap: -1rem;
 }
 
 .cards .books .cover {
