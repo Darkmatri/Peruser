@@ -1,776 +1,721 @@
-{
-    "kind": "books#volumes",
-    "totalItems": 1802,
-    "items": [
-    {
-    "kind": "books#volume",
-    "id": "UjG8qXVRSSQC",
-    "etag": "XE5P2oWgSHE",
-    "selfLink": "https://www.googleapis.com/books/v1/volumes/UjG8qXVRSSQC",
-    "volumeInfo": {
-    "title": "Google Power Search",
-    "authors": [
-    "Stephan Spencer"
-    ],
-    "publisher": "\"O'Reilly Media, Inc.\"",
-    "publishedDate": "2011-07-23",
-    "description": "Behind Google's deceptively simple interface is immense power for both market and competitive research—if you know how to use it well. Sure, basic searches are easy, but complex searches require specialized skills. This concise book takes you through the full range of Google's powerful search-refinement features, so you can quickly find the specific information you need. Learn techniques ranging from simple Boolean logic to URL parameters and other advanced tools, and see how they're applied to real-world market research examples. Incorporate advanced search operators such as filetype:, intitle:, daterange:, and others into your queries Use Google filtering tools, including Search Within Results, Similar Pages, and SafeSearch, among others Explore the breadth of Google through auxiliary search services like Google News, Google Books, Google Blog Search, and Google Scholar Acquire advanced Google skills that result in more effective search engine optimization (SEO)",
-    "industryIdentifiers": [
-    {
-    "type": "ISBN_13",
-    "identifier": "9781449311568"
+[{
+        "id": 1,
+        "image": "./images/books/1.jpg",
+        "name": "Don Quixote",
+        "category": "adventure",
+        "author": "Miguel de Cervantes",
+        "price": "$200",
+        "span": "400"
     },
     {
-    "type": "ISBN_10",
-    "identifier": "1449311563"
+        "id": 2,
+        "image": "./images/books/2.jpg",
+        "name": "The Three Musketeers",
+        "category": "adventure",
+        "author": "Alexandre Dumas",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 3,
+        "image": "./images/books/3.jpg",
+        "name": "Treasure Island",
+        "category": "adventure",
+        "author": "Robert Louis Stevenson",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 4,
+        "image": "./images/books/4.jpg",
+        "name": "King Solomon's Mines",
+        "category": "adventure",
+        "author": "H. Rider Haggard",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 5,
+        "image": "./images/books/5.jpg",
+        "name": "Journey to the Center of the Earth",
+        "category": "adventure",
+        "author": "Jules Verne",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 6,
+        "image": "./images/books/6.jpg",
+        "name": "One Hundred Years of Solitude",
+        "category": "classic",
+        "author": "Gabriel García Márquez",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 7,
+        "image": "./images/books/7.jpg",
+        "name": "The Age of Innocence",
+        "category": "classic",
+        "author": "Edith Wharton",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 8,
+        "image": "./images/books/8.jpg",
+        "name": "The Alchemist",
+        "category": "classic",
+        "author": "Paulo Coelho",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 9,
+        "image": "./images/books/9.jpg",
+        "name": "All Quiet on the Western Front",
+        "category": "classic",
+        "author": "Erich Maria Remarque",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 10,
+        "image": "./images/books/10.jpg",
+        "name": " America",
+        "category": "classic",
+        "author": "Zitkála-Šá",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 11,
+        "image": "./images/books/11.webp",
+        "name": "other women",
+        "category": "crime",
+        "author": "Emma Flint",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 12,
+        "image": "./images/books/12.webp",
+        "name": "Exiles",
+        "category": "crime",
+        "author": "Jane Harper",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 13,
+        "image": "./images/books/13.jpg",
+        "name": "killer of the flower moon",
+        "category": "crime",
+        "author": "david grann",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 14,
+        "image": "./images/books/14.jpg",
+        "name": "Serial Killers True Crime",
+        "category": "crime",
+        "author": "Tom Philbin",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 15,
+        "image": "./images/books/15.jpg",
+        "name": "True Crime Stories Volume 4",
+        "category": "crime",
+        "author": "Jack Rosewood",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 16,
+        "image": "./images/books/16.jpeg",
+        "name": "The Beauty and the Beast",
+        "category": "fairy",
+        "author": " Gabrielle-Suzanne",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 17,
+        "image": "./images/books/17.jpeg",
+        "name": "Peter Pan",
+        "category": "fairy",
+        "author": " J.M. Barrie",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 18,
+        "image": "./images/books/18.jpeg",
+        "name": "Snow White",
+        "category": "fairy",
+        "author": "The Brothers Grimm",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 19,
+        "image": "./images/books/19.jpeg",
+        "name": "Cinderella",
+        "category": "fairy",
+        "author": " Giambattista Basile",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 20,
+        "image": "./images/books/20.jpeg",
+        "name": "The Art of Tangled",
+        "category": "fairy",
+        "author": "Jacob Grimm",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 21,
+        "image": "./images/books/21.png",
+        "name": "THE LORD OF THE RINGS",
+        "category": "fantasy",
+        "author": "J.R.R. TOLKIEN",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 22,
+        "image": "./images/books/22.jpeg",
+        "name": "A SONG OF ICE AND blo22od",
+        "category": "fantasy",
+        "author": "GEORGE R.R. MARTIN",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 23,
+        "image": "./images/books/23.jpeg",
+        "name": "A Game of Thrones",
+        "category": "fantasy",
+        "author": "George R.R.Martin",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 24,
+        "image": "./images/books/24.jpeg",
+        "name": "Harry Potter and the Goblet of Fire",
+        "category": "fantasy",
+        "author": "J. K. Rowling",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 25,
+        "image": "./images/books/25.jpg",
+        "name": "Fantastic Beasts",
+        "category": "fantasy",
+        "author": "J. K. Rowling",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 26,
+        "image": "./images/books/26.webp",
+        "name": "A Tale of Two Cities",
+        "category": "novel",
+        "author": "Charles Dickens",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 27,
+        "image": "./images/books/27.webp",
+        "name": "The Lord of the Rings-The Fellowship of the ring",
+        "category": "novel",
+        "author": "J.R.R. Tolkien",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 28,
+        "image": "./images/books/28.webp",
+        "name": "The Little Prince",
+        "category": "novel",
+        "author": "Antoine de Saint-Exupéry",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 29,
+        "image": "./images/books/29.webp",
+        "name": "The Hobbit",
+        "category": "novel",
+        "author": "J.R.R. Tolkien",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 30,
+        "image": "./images/books/30.webp",
+        "name": "The Lion, The Witch and the Wardrobe",
+        "category": "novel",
+        "author": "C.S. Lewis",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 31,
+        "image": "./images/books/31.jpg",
+        "name": "The Stand",
+        "category": "thriller",
+        "author": "Stephen King",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 32,
+        "image": "./images/books/32.jpg",
+        "name": "Dracula",
+        "category": "thriller",
+        "author": "Bram Stokers",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 33,
+        "image": "./images/books/33.jpg",
+        "name": "Flowers in the Attic",
+        "category": "thriller",
+        "author": "Virginia Andrews",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 34,
+        "image": "./images/books/34.jpg",
+        "name": "The Secret History",
+        "category": "thriller",
+        "author": "Donna Tartt",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 35,
+        "image": "./images/books/35.jpg",
+        "name": "The Silence of the Lambs",
+        "category": "thriller",
+        "author": "Thomas Harris",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 36,
+        "image": "./images/books/36.jpg",
+        "name": "And Then There Were None",
+        "category": "crime",
+        "author": "Agatha Christie",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 37,
+        "image": "./images/books/37.jpg",
+        "name": " The Big Sleep",
+        "category": "crime",
+        "author": "Raymond Chandler",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 38,
+        "image": "./images/books/38.jpg",
+        "name": "Gone Girl",
+        "category": "crime",
+        "author": "Gillian Flynn",
+       "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 39,
+        "image": "./images/books/39.jpg",
+        "name": "In Cold Blood",
+        "category": "crime",
+        "author": "Truman Capote",
+       "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 40,
+        "image": "./images/books/40.jpg",
+        "name": "The Postman Always Rings Twice",
+        "category": "crime",
+        "author": "James M. Cain",
+       "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 41,
+        "image": "./images/books/41.jpeg",
+        "name": "An Eternal Love Story",
+        "category": "romance",
+        "author": "Erich Segal",
+       "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 42,
+        "image": "./images/books/42.jpeg",
+        "name": "Outlander",
+        "category": "romance",
+        "author": "Diana Gabaldon",
+       "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 43,
+        "image": "./images/books/43.jpeg",
+        "name": "Gone With The Wind",
+        "category": "romance",
+        "author": "Margaret Mitchell",
+       "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 44,
+        "image": "./images/books/44.jpg",
+        "name": "The Bride's Baby",
+        "category": "romance",
+        "author": "Liz Fielding",
+       "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 45,
+        "image": "./images/books/45.jpeg",
+        "name": "Pride And Prejudice",
+        "category": "romance",
+        "author": "Jane Austen",
+       "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 46,
+        "image": "./images/books/46.jpg",
+        "name": "Then She Was Gone: A Novel",
+        "category": "play",
+        "author": "Lisa Jewell",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 47,
+        "image": "./images/books/47.jpg",
+        "name": "Before We Were Yours",
+        "category": "play",
+        "author": "Lisa Wingate",
+       "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 48,
+        "image": "./images/books/48.jpg",
+        "name": "The Haunting of Hill House",
+        "category": "play",
+        "author": "F. Andrew Leslie",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 49,
+        "image": "./images/books/49.jpg",
+        "name": "The Silent Wife",
+        "category": "play",
+        "author": "Kerry Fisher",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 50,
+        "image": "./images/books/50.jpg",
+        "name": "The Complete Greek Drama",
+        "category": "play",
+        "author": "Whitney J. Oates",
+       "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 51,
+        "image": "./images/books/51.jpg",
+        "name": "Frankenstein",
+        "category": "sifi",
+        "author": "John Grant",
+       "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 52,
+        "image": "./images/books/52.jpg",
+        "name": "Ready Player One",
+        "category": "sifi",
+        "author": "Ernest Cline",
+       "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 53,
+        "image": "./images/books/53.jpg",
+        "name": "The Martian",
+        "category": "sifi",
+        "author": "Andy Weir",
+       "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 54,
+        "image": "./images/books/54.jpg",
+        "name": "The Time Machine",
+        "category": "sifi",
+        "author": "Paul J. Nahin",
+       "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 55,
+        "image": "./images/books/55.jpg",
+        "name": "Dune",
+        "category": "sifi",
+        "author": "Frank Herbert",
+       "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 56,
+        "image": "./images/books/56.jpg",
+        "name": "The Mouse That Was",
+        "category": "fairy",
+        "author": "paul choy",
+       "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 57,
+        "image": "./images/books/57.jpg",
+        "name": "Ten Little Bunnies",
+        "category": "fairy",
+        "author": "nuril karlin",
+       "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 58,
+        "image": "./images/books/58.jpg",
+        "name": "The Witch's Daughter",
+        "category": "fairy",
+        "author": "janaki sooriyarachchi",
+       "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 59,
+        "image": "./images/books/59.jpg",
+        "name": "Never Lonely Again",
+        "category": "fairy",
+        "author": "hans withelm",
+       "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 60,
+        "image": "./images/books/60.jpg",
+        "name": "The Royal Raven",
+        "category": "fairy",
+        "author": "hans wilhelm",
+       "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 61,
+        "image": "./images/books/61.jpg",
+        "name": "Blue Moon",
+        "category": "thriller",
+        "author": "Alyson Noël",
+       "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 62,
+        "image": "./images/books/62.jpg",
+        "name": "Hail Mary",
+        "category": "thriller",
+        "author": "Rain J R",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 63,
+        "image": "./images/books/63.jpg",
+        "name": "Extreme Measures",
+        "category": "thriller",
+        "author": "Vince Flynn",
+       "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 64,
+        "image": "./images/books/64.jpg",
+        "name": "The Wife Between Us",
+        "category": "thriller",
+        "author": "Greer Hendricks",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 65,
+        "image": "./images/books/65.jpg",
+        "name": "Origin: A Novel",
+        "category": "thriller",
+        "author": "Dan Brown",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 66,
+        "image": "./images/books/66.jpg",
+        "name": "Helen keller",
+        "category": "auto",
+        "author": "Jerry Pinto",
+       "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 67,
+        "image": "./images/books/67.webp",
+        "name": "Gandhi Before India",
+        "category": "auto",
+        "author": " Ramachandra Guha",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 68,
+        "image": "./images/books/68.webp",
+        "name": "Wings Of Fire",
+        "category": "auto",
+        "author": "A.P.J Abdul Kalam",
+       "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 69,
+        "image": "./images/books/69.webp",
+        "name": "Autobiography Of A Yogi",
+        "category": "auto",
+        "author": "paramahansa yogananda",
+       "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 70,
+        "image": "./images/books/70.webp",
+        "name": "My Life: An Illustrated Autobiography",
+        "category": "auto",
+        "author": "A.P.J Abdul Kalam",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 71,
+        "image": "./images/books/71.jpg",
+        "name": "First summer",
+        "category": "kids",
+        "author": "Eric Carle",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 72,
+        "image": "./images/books/72.jpg",
+        "name": "The Tale of Ferdinand Frog",
+        "category": "kids",
+        "author": "Arthur Scott Bailey",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 73,
+        "image": "./images/books/73.jpg",
+        "name": "The Black Bag",
+        "category": "kids",
+        "author": "P. H. Solomon",
+       "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 74,
+        "image": "./images/books/74.jpg",
+        "name": "Alice in Wonderland",
+        "category": "kids",
+        "author": "Lewis Carroll",
+       "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 75,
+        "image": "./images/books/75.jpg",
+        "name": "The Return of Tarzan",
+        "category": "kids",
+        "author": "Edgar Rice Burroughs",
+        "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 76,
+        "image": "./images/books/76.jpg",
+        "name": "TNPSC-Study-Material-Chemistry",
+        "category": "edu",
+        "author": " ",
+       "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 77,
+        "image": "./images/books/77.jpg",
+        "name": "Educational Leadership",
+        "category": "edu",
+        "author": "Harry Tomlinson",
+       "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 78,
+        "image": "./images/books/78.jpg",
+        "name": "DEPARTMENT OF FOOD CHEMISTRY AND NUTRITION",
+        "category": "edu",
+        "author": "Food Science",
+       "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 79,
+        "image": "./images/books/79.jpg",
+        "name": "Introduction to Human Nutrition",
+        "category": "edu",
+        "author": "Michael J Gibney",
+       "price": "$200",
+        "span": "400"
+    },
+    {
+        "id": 80,
+        "image": "./images/books/80.jpg",
+        "name": "Encyclopedia of Diets",
+        "category": "edu",
+        "author": " ",
+       "price": "$200",
+        "span": "400"
     }
-    ],
-    "readingModes": {
-    "text": false,
-    "image": true
-    },
-    "pageCount": 73,
-    "printType": "BOOK",
-    "categories": [
-    "Computers"
-    ],
-    "maturityRating": "NOT_MATURE",
-    "allowAnonLogging": false,
-    "contentVersion": "0.4.0.0.preview.1",
-    "panelizationSummary": {
-    "containsEpubBubbles": false,
-    "containsImageBubbles": false
-    },
-    "imageLinks": {
-    "smallThumbnail": "http://books.google.com/books/content?id=UjG8qXVRSSQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-    "thumbnail": "http://books.google.com/books/content?id=UjG8qXVRSSQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    },
-    "language": "en",
-    "previewLink": "http://books.google.co.in/books?id=UjG8qXVRSSQC&printsec=frontcover&dq=search+terms&hl=&cd=1&source=gbs_api",
-    "infoLink": "http://books.google.co.in/books?id=UjG8qXVRSSQC&dq=search+terms&hl=&source=gbs_api",
-    "canonicalVolumeLink": "https://books.google.com/books/about/Google_Power_Search.html?hl=&id=UjG8qXVRSSQC"
-    },
-    "saleInfo": {
-    "country": "IN",
-    "saleability": "NOT_FOR_SALE",
-    "isEbook": false
-    },
-    "accessInfo": {
-    "country": "IN",
-    "viewability": "PARTIAL",
-    "embeddable": true,
-    "publicDomain": false,
-    "textToSpeechPermission": "ALLOWED",
-    "epub": {
-    "isAvailable": false
-    },
-    "pdf": {
-    "isAvailable": true
-    },
-    "webReaderLink": "http://play.google.com/books/reader?id=UjG8qXVRSSQC&hl=&source=gbs_api",
-    "accessViewStatus": "SAMPLE",
-    "quoteSharingAllowed": false
-    },
-    "searchInfo": {
-    "textSnippet": "Sure, basic searches are easy, but complex searches require specialized skills. This concise book takes you through the full range of Google&#39;s powerful search-refinement features, so you can quickly find the specific information you need."
-    }
-    },
-    {
-    "kind": "books#volume",
-    "id": "gqDf__ULmR8C",
-    "etag": "rmBfZ52xm0U",
-    "selfLink": "https://www.googleapis.com/books/v1/volumes/gqDf__ULmR8C",
-    "volumeInfo": {
-    "title": "Flexible Query Answering Systems",
-    "subtitle": "8th International Conference, FQAS 2009, Roskilde, Denmark, October 26-28, 2009, Proceedings",
-    "authors": [
-    "Troels Andreasen",
-    "Ronald R. Yager",
-    "Henrik Bulskov",
-    "Henning Christiansen",
-    "Henrik Legind Larsen"
-    ],
-    "publisher": "Springer Science & Business Media",
-    "publishedDate": "2009-10-15",
-    "description": "This volume constitutes the Proceedings of the 8th International Conference on Flexible Query Answering Systems, FQAS 2009, held in Roskilde, Denmark, October 26–28, 2009. FQAS 2009 was preceded by the 1994, 1996 and 1998 editions held in Roskilde, Denmark, the FQAS 2000 held in Warsaw, Poland, the 2002 held in Copenhagen, Denmark, and the 2004 and 2006 editions held in Lyon, France, and in Milan, Italy, respectively. FQAS is the premier conference concerned with the very important issue of providing users of information systems with ?exible querying capabilities, and withaneasyandintuitiveaccesstoinformation.Themainobjectiveistoachieve more expressive, informative, cooperative, and productive systems which faci- tate retrieval from information repositories such as databases, libraries, hete- geneous archives and the World-Wide Web. In targeting this objective, the c- ference draws on several research areas, such as information retrieval, database management, information ?ltering, knowledge representation, soft computing, management of multimedia information, and human–computer interaction. The conference provides a unique opportunity for researchers, developers and pr- titioners to explore new ideas and approaches in a multidisciplinary forum. The overalltopic of the FQAS conferences is innovative query systems aimed at providing easy, ?exible and human-friendly access to information. Such s- tems arebecoming increasinglyimportantalsodue to the huge andalwaysgr- ing number of users as well as the growing amount of available information.",
-    "industryIdentifiers": [
-    {
-    "type": "ISBN_13",
-    "identifier": "9783642049569"
-    },
-    {
-    "type": "ISBN_10",
-    "identifier": "3642049567"
-    }
-    ],
-    "readingModes": {
-    "text": false,
-    "image": true
-    },
-    "pageCount": 688,
-    "printType": "BOOK",
-    "categories": [
-    "Computers"
-    ],
-    "maturityRating": "NOT_MATURE",
-    "allowAnonLogging": false,
-    "contentVersion": "0.1.1.0.preview.1",
-    "panelizationSummary": {
-    "containsEpubBubbles": false,
-    "containsImageBubbles": false
-    },
-    "imageLinks": {
-    "smallThumbnail": "http://books.google.com/books/content?id=gqDf__ULmR8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-    "thumbnail": "http://books.google.com/books/content?id=gqDf__ULmR8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    },
-    "language": "en",
-    "previewLink": "http://books.google.co.in/books?id=gqDf__ULmR8C&pg=PA180&dq=search+terms&hl=&cd=2&source=gbs_api",
-    "infoLink": "http://books.google.co.in/books?id=gqDf__ULmR8C&dq=search+terms&hl=&source=gbs_api",
-    "canonicalVolumeLink": "https://books.google.com/books/about/Flexible_Query_Answering_Systems.html?hl=&id=gqDf__ULmR8C"
-    },
-    "saleInfo": {
-    "country": "IN",
-    "saleability": "NOT_FOR_SALE",
-    "isEbook": false
-    },
-    "accessInfo": {
-    "country": "IN",
-    "viewability": "PARTIAL",
-    "embeddable": true,
-    "publicDomain": false,
-    "textToSpeechPermission": "ALLOWED",
-    "epub": {
-    "isAvailable": false
-    },
-    "pdf": {
-    "isAvailable": true,
-    "acsTokenLink": "http://books.google.co.in/books/download/Flexible_Query_Answering_Systems-sample-pdf.acsm?id=gqDf__ULmR8C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-    },
-    "webReaderLink": "http://play.google.com/books/reader?id=gqDf__ULmR8C&hl=&source=gbs_api",
-    "accessViewStatus": "SAMPLE",
-    "quoteSharingAllowed": false
-    },
-    "searchInfo": {
-    "textSnippet": "... searches in query logs are ambiguous [8]). Several papers have been published on the topics of query disambiguation based on extracting terms from searched documents: the idea is to replace user-provided <b>query terms</b> with more specific&nbsp;..."
-    }
-    },
-    {
-    "kind": "books#volume",
-    "id": "MFQMEAAAQBAJ",
-    "etag": "QK63nqaJYSM",
-    "selfLink": "https://www.googleapis.com/books/v1/volumes/MFQMEAAAQBAJ",
-    "volumeInfo": {
-    "title": "Query Understanding for Search Engines",
-    "authors": [
-    "Yi Chang",
-    "Hongbo Deng"
-    ],
-    "publisher": "Springer Nature",
-    "publishedDate": "2020-12-01",
-    "description": "This book presents a systematic study of practices and theories for query understanding of search engines. These studies can be categorized into three major classes. The first class is to figure out what the searcher wants by extracting semantic meaning from the searcher’s keywords, such as query classification, query tagging, and query intent understanding. The second class is to analyze search queries and then translate them into an enhanced query that can produce better search results, such as query spelling correction or query rewriting. The third class is to assist users in refining or suggesting queries in order to reduce users’ search effort and satisfy their information needs, such as query auto-completion and query suggestion. Query understanding is a fundamental part of search engines. It is responsible to precisely infer the intent of the query formulated by the search user, to correct spelling errors in his/her query, to reformulate the query to capture its intent more accurately, and to guide the user in formulating a query with precise intent. The book will be invaluable to researchers and graduate students in computer or information science and specializing in information retrieval or web-based systems, as well as to researchers and programmers working on the development or improvement of products related to search engines.",
-    "industryIdentifiers": [
-    {
-    "type": "ISBN_13",
-    "identifier": "9783030583347"
-    },
-    {
-    "type": "ISBN_10",
-    "identifier": "3030583341"
-    }
-    ],
-    "readingModes": {
-    "text": false,
-    "image": true
-    },
-    "pageCount": 224,
-    "printType": "BOOK",
-    "categories": [
-    "Computers"
-    ],
-    "maturityRating": "NOT_MATURE",
-    "allowAnonLogging": false,
-    "contentVersion": "0.0.1.0.preview.1",
-    "panelizationSummary": {
-    "containsEpubBubbles": false,
-    "containsImageBubbles": false
-    },
-    "imageLinks": {
-    "smallThumbnail": "http://books.google.com/books/content?id=MFQMEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-    "thumbnail": "http://books.google.com/books/content?id=MFQMEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    },
-    "language": "en",
-    "previewLink": "http://books.google.co.in/books?id=MFQMEAAAQBAJ&printsec=frontcover&dq=search+terms&hl=&cd=3&source=gbs_api",
-    "infoLink": "https://play.google.com/store/books/details?id=MFQMEAAAQBAJ&source=gbs_api",
-    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=MFQMEAAAQBAJ"
-    },
-    "saleInfo": {
-    "country": "IN",
-    "saleability": "FOR_SALE",
-    "isEbook": true,
-    "listPrice": {
-    "amount": 11764.6,
-    "currencyCode": "INR"
-    },
-    "retailPrice": {
-    "amount": 11764.6,
-    "currencyCode": "INR"
-    },
-    "buyLink": "https://play.google.com/store/books/details?id=MFQMEAAAQBAJ&rdid=book-MFQMEAAAQBAJ&rdot=1&source=gbs_api",
-    "offers": [
-    {
-    "finskyOfferType": 1,
-    "listPrice": {
-    "amountInMicros": 11764600000,
-    "currencyCode": "INR"
-    },
-    "retailPrice": {
-    "amountInMicros": 11764600000,
-    "currencyCode": "INR"
-    }
-    }
-    ]
-    },
-    "accessInfo": {
-    "country": "IN",
-    "viewability": "PARTIAL",
-    "embeddable": true,
-    "publicDomain": false,
-    "textToSpeechPermission": "ALLOWED",
-    "epub": {
-    "isAvailable": false
-    },
-    "pdf": {
-    "isAvailable": true,
-    "acsTokenLink": "http://books.google.co.in/books/download/Query_Understanding_for_Search_Engines-sample-pdf.acsm?id=MFQMEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-    },
-    "webReaderLink": "http://play.google.com/books/reader?id=MFQMEAAAQBAJ&hl=&source=gbs_api",
-    "accessViewStatus": "SAMPLE",
-    "quoteSharingAllowed": false
-    },
-    "searchInfo": {
-    "textSnippet": "This book presents a systematic study of practices and theories for query understanding of search engines. These studies can be categorized into three major classes."
-    }
-    },
-    {
-    "kind": "books#volume",
-    "id": "ZAH1AwAAQBAJ",
-    "etag": "JvlBYbqyJsw",
-    "selfLink": "https://www.googleapis.com/books/v1/volumes/ZAH1AwAAQBAJ",
-    "volumeInfo": {
-    "title": "Power Query for Power BI and Excel",
-    "authors": [
-    "Christopher Webb",
-    "Crossjoin Consulting Limited"
-    ],
-    "publisher": "Apress",
-    "publishedDate": "2014-07-05",
-    "description": "Power Query for Power BI and Excel is a book for people who are tired of copying and pasting data into Excel worksheets. Power Query, part of the Microsoft Power BI suite, is a tool that automates the process of getting data into Excel and will save you hours of dull, repetitive, and error-prone work! Power Query makes it easy to extract data from many different data sources, filter that data, aggregate it, clean it and perform calculations on it, finally loading that data into either your worksheet or directly into the new Excel 2013 Data Model used by Power Pivot. This concise, practical book provides a complete guide to Power Query and how to use it to solve all of your Excel data-loading problems. Power Query for Power BI and Excel goes well beyond the surface of what Power Query can do. The book goes deep into the underlying M language, showing you how to do amazing things that aren’t going to be possible from just the GUI interface that is covered in most other books. You’ll have full command of the GUI, and you’ll be able to drop into the M language to go beyond what the GUI provides. The depth in this book makes it a must-have item for anyone who is pushing Power BI and Excel to their limits in the pursuit of business intelligence from data analysis. Teaches the basics of using Power Query to load data into Excel Helps you solve common, data-related problems with Power Query Shows how to write your own solutions in the powerful M language",
-    "industryIdentifiers": [
-    {
-    "type": "ISBN_13",
-    "identifier": "9781430266921"
-    },
-    {
-    "type": "ISBN_10",
-    "identifier": "1430266929"
-    }
-    ],
-    "readingModes": {
-    "text": true,
-    "image": true
-    },
-    "pageCount": 261,
-    "printType": "BOOK",
-    "categories": [
-    "Computers"
-    ],
-    "maturityRating": "NOT_MATURE",
-    "allowAnonLogging": true,
-    "contentVersion": "1.6.5.0.preview.3",
-    "panelizationSummary": {
-    "containsEpubBubbles": false,
-    "containsImageBubbles": false
-    },
-    "imageLinks": {
-    "smallThumbnail": "http://books.google.com/books/content?id=ZAH1AwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-    "thumbnail": "http://books.google.com/books/content?id=ZAH1AwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    },
-    "language": "en",
-    "previewLink": "http://books.google.co.in/books?id=ZAH1AwAAQBAJ&pg=PA42&dq=search+terms&hl=&cd=4&source=gbs_api",
-    "infoLink": "http://books.google.co.in/books?id=ZAH1AwAAQBAJ&dq=search+terms&hl=&source=gbs_api",
-    "canonicalVolumeLink": "https://books.google.com/books/about/Power_Query_for_Power_BI_and_Excel.html?hl=&id=ZAH1AwAAQBAJ"
-    },
-    "saleInfo": {
-    "country": "IN",
-    "saleability": "NOT_FOR_SALE",
-    "isEbook": false
-    },
-    "accessInfo": {
-    "country": "IN",
-    "viewability": "PARTIAL",
-    "embeddable": true,
-    "publicDomain": false,
-    "textToSpeechPermission": "ALLOWED",
-    "epub": {
-    "isAvailable": true,
-    "acsTokenLink": "http://books.google.co.in/books/download/Power_Query_for_Power_BI_and_Excel-sample-epub.acsm?id=ZAH1AwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-    },
-    "pdf": {
-    "isAvailable": true,
-    "acsTokenLink": "http://books.google.co.in/books/download/Power_Query_for_Power_BI_and_Excel-sample-pdf.acsm?id=ZAH1AwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-    },
-    "webReaderLink": "http://play.google.com/books/reader?id=ZAH1AwAAQBAJ&hl=&source=gbs_api",
-    "accessViewStatus": "SAMPLE",
-    "quoteSharingAllowed": false
-    },
-    "searchInfo": {
-    "textSnippet": "... search for terms in specific pieces of the metadata associated with a query. Clicking one of these buttons will add an advanced filter to your <b>search term</b> in the format filtername:(searchterm). So, clicking the Name button will allow you to&nbsp;..."
-    }
-    },
-    {
-    "kind": "books#volume",
-    "id": "g7YNeVDDbVgC",
-    "etag": "clrpbCrhMjQ",
-    "selfLink": "https://www.googleapis.com/books/v1/volumes/g7YNeVDDbVgC",
-    "volumeInfo": {
-    "title": "Flexible Query Answering Systems",
-    "subtitle": "7th International Conference, FQAS 2006, Milan, Italy, June 7-10, 2006",
-    "authors": [
-    "Henrik Legind Larsen",
-    "Gabriella Pasi",
-    "Daniel Ortiz-Arroyo",
-    "Troels Andreasen",
-    "Henning Christiansen"
-    ],
-    "publisher": "Springer Science & Business Media",
-    "publishedDate": "2006-05-30",
-    "description": "This book constitutes the refereed proceeding of the 7th International Conference on Flexible Query Answering Systems, FQAS 2006, held in Milan, Italy in June 2006. The 60 revised full papers presented were carefully reviewed and selected from numerous submissions. The papers are organized in topical sections on flexibility in database management and quering, vagueness and uncertainty in XML quering and retrieval, information retrieval and filtering, multimedia information access, user modeling and personalization, knowledge and data extraction, intelligent information extraction from text, and knowledge representation and reasoning.",
-    "industryIdentifiers": [
-    {
-    "type": "ISBN_13",
-    "identifier": "9783540346388"
-    },
-    {
-    "type": "ISBN_10",
-    "identifier": "3540346384"
-    }
-    ],
-    "readingModes": {
-    "text": false,
-    "image": true
-    },
-    "pageCount": 730,
-    "printType": "BOOK",
-    "categories": [
-    "Computers"
-    ],
-    "maturityRating": "NOT_MATURE",
-    "allowAnonLogging": false,
-    "contentVersion": "0.1.2.0.preview.1",
-    "panelizationSummary": {
-    "containsEpubBubbles": false,
-    "containsImageBubbles": false
-    },
-    "imageLinks": {
-    "smallThumbnail": "http://books.google.com/books/content?id=g7YNeVDDbVgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-    "thumbnail": "http://books.google.com/books/content?id=g7YNeVDDbVgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    },
-    "language": "en",
-    "previewLink": "http://books.google.co.in/books?id=g7YNeVDDbVgC&pg=PA582&dq=search+terms&hl=&cd=5&source=gbs_api",
-    "infoLink": "http://books.google.co.in/books?id=g7YNeVDDbVgC&dq=search+terms&hl=&source=gbs_api",
-    "canonicalVolumeLink": "https://books.google.com/books/about/Flexible_Query_Answering_Systems.html?hl=&id=g7YNeVDDbVgC"
-    },
-    "saleInfo": {
-    "country": "IN",
-    "saleability": "NOT_FOR_SALE",
-    "isEbook": false
-    },
-    "accessInfo": {
-    "country": "IN",
-    "viewability": "PARTIAL",
-    "embeddable": true,
-    "publicDomain": false,
-    "textToSpeechPermission": "ALLOWED",
-    "epub": {
-    "isAvailable": false
-    },
-    "pdf": {
-    "isAvailable": true,
-    "acsTokenLink": "http://books.google.co.in/books/download/Flexible_Query_Answering_Systems-sample-pdf.acsm?id=g7YNeVDDbVgC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-    },
-    "webReaderLink": "http://play.google.com/books/reader?id=g7YNeVDDbVgC&hl=&source=gbs_api",
-    "accessViewStatus": "SAMPLE",
-    "quoteSharingAllowed": false
-    },
-    "searchInfo": {
-    "textSnippet": "... <b>query terms</b>, or taxonomically related terms, in. Then, the candidate answer score is computed like this: ni=1 wi scoreCA = (1) ∑ n where n is the window size and wi is the i word weight. wi is 1 for <b>search terms</b>, 0.8 for the synonyms&nbsp;..."
-    }
-    },
-    {
-    "kind": "books#volume",
-    "id": "L0rrrfE0bOsC",
-    "etag": "dgxKcteQ3Fw",
-    "selfLink": "https://www.googleapis.com/books/v1/volumes/L0rrrfE0bOsC",
-    "volumeInfo": {
-    "title": "Deep Web Query Interface Understanding and Integration",
-    "authors": [
-    "Eduard C. Dragut",
-    "Weiyi Meng",
-    "Clement T. Yu"
-    ],
-    "publisher": "Morgan & Claypool Publishers",
-    "publishedDate": "2012",
-    "description": "There are millions of searchable data sources on the Web and to a large extent their contents can only be reached through their own query interfaces. There is an enormous interest in making the data in these sources easily accessible. There are primarily two general approaches to achieve this objective. The first is to surface the contents of these sources from the deep Web and add the contents to the index of regular search engines. The second is to integrate the searching capabilities of these sources and support integrated access to them. In this book, we introduce the state-of-the-art techniques for extracting, understanding, and integrating the query interfaces of deep Web data sources. These techniques are critical for producing an integrated query interface for each domain. The interface serves as the mediator for searching all data sources in the concerned domain. While query interface integration is only relevant for the deep Web integration approach, the extraction and understanding of query interfaces are critical for both deep Web exploration approaches. This book aims to provide in-depth and comprehensive coverage of the key technologies needed to create high quality integrated query interfaces automatically. The following technical issues are discussed in detail in this book: query interface modeling, query interface extraction, query interface clustering, query interface matching, query interface attribute integration, and query interface integration. Table of Contents: Introduction / Query Interface Representation and Extraction / Query Interface Clustering and Categorization / Query Interface Matching / Query Interface Attribute Integration / Query Interface Integration / Summary and Future Research",
-    "industryIdentifiers": [
-    {
-    "type": "ISBN_13",
-    "identifier": "9781608458943"
-    },
-    {
-    "type": "ISBN_10",
-    "identifier": "1608458946"
-    }
-    ],
-    "readingModes": {
-    "text": false,
-    "image": true
-    },
-    "pageCount": 150,
-    "printType": "BOOK",
-    "categories": [
-    "Computers"
-    ],
-    "maturityRating": "NOT_MATURE",
-    "allowAnonLogging": false,
-    "contentVersion": "preview-1.0.0",
-    "panelizationSummary": {
-    "containsEpubBubbles": false,
-    "containsImageBubbles": false
-    },
-    "imageLinks": {
-    "smallThumbnail": "http://books.google.com/books/content?id=L0rrrfE0bOsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-    "thumbnail": "http://books.google.com/books/content?id=L0rrrfE0bOsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    },
-    "language": "en",
-    "previewLink": "http://books.google.co.in/books?id=L0rrrfE0bOsC&pg=PA54&dq=search+terms&hl=&cd=6&source=gbs_api",
-    "infoLink": "https://play.google.com/store/books/details?id=L0rrrfE0bOsC&source=gbs_api",
-    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=L0rrrfE0bOsC"
-    },
-    "saleInfo": {
-    "country": "IN",
-    "saleability": "FOR_SALE",
-    "isEbook": true,
-    "listPrice": {
-    "amount": 2596,
-    "currencyCode": "INR"
-    },
-    "retailPrice": {
-    "amount": 2596,
-    "currencyCode": "INR"
-    },
-    "buyLink": "https://play.google.com/store/books/details?id=L0rrrfE0bOsC&rdid=book-L0rrrfE0bOsC&rdot=1&source=gbs_api",
-    "offers": [
-    {
-    "finskyOfferType": 1,
-    "listPrice": {
-    "amountInMicros": 2596000000,
-    "currencyCode": "INR"
-    },
-    "retailPrice": {
-    "amountInMicros": 2596000000,
-    "currencyCode": "INR"
-    }
-    }
-    ]
-    },
-    "accessInfo": {
-    "country": "IN",
-    "viewability": "PARTIAL",
-    "embeddable": true,
-    "publicDomain": false,
-    "textToSpeechPermission": "ALLOWED",
-    "epub": {
-    "isAvailable": false
-    },
-    "pdf": {
-    "isAvailable": true,
-    "acsTokenLink": "http://books.google.co.in/books/download/Deep_Web_Query_Interface_Understanding_a-sample-pdf.acsm?id=L0rrrfE0bOsC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-    },
-    "webReaderLink": "http://play.google.com/books/reader?id=L0rrrfE0bOsC&hl=&source=gbs_api",
-    "accessViewStatus": "SAMPLE",
-    "quoteSharingAllowed": false
-    },
-    "searchInfo": {
-    "textSnippet": "... <b>terms</b> have lower weights (e.g., “shop,” “privacy”). 2. Form namefeature space (FN). FN consists ofall distinct <b>terms</b> appearing in a <b>query</b> interface. For example, the <b>query</b> interfaces of book <b>search</b> engines usually have attribute names&nbsp;..."
-    }
-    },
-    {
-    "kind": "books#volume",
-    "id": "77RZAAAAYAAJ",
-    "etag": "TU7Z4HlD1GM",
-    "selfLink": "https://www.googleapis.com/books/v1/volumes/77RZAAAAYAAJ",
-    "volumeInfo": {
-    "title": "Pennsylvania Law Encyclopedia",
-    "publishedDate": "2004",
-    "industryIdentifiers": [
-    {
-    "type": "OTHER",
-    "identifier": "PSU:000062618915"
-    }
-    ],
-    "readingModes": {
-    "text": false,
-    "image": false
-    },
-    "pageCount": 492,
-    "printType": "BOOK",
-    "categories": [
-    "Law"
-    ],
-    "maturityRating": "NOT_MATURE",
-    "allowAnonLogging": false,
-    "contentVersion": "1.4.2.0.preview.0",
-    "panelizationSummary": {
-    "containsEpubBubbles": false,
-    "containsImageBubbles": false
-    },
-    "imageLinks": {
-    "smallThumbnail": "http://books.google.com/books/content?id=77RZAAAAYAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-    "thumbnail": "http://books.google.com/books/content?id=77RZAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-    },
-    "language": "en",
-    "previewLink": "http://books.google.co.in/books?id=77RZAAAAYAAJ&q=search+terms&dq=search+terms&hl=&cd=7&source=gbs_api",
-    "infoLink": "http://books.google.co.in/books?id=77RZAAAAYAAJ&dq=search+terms&hl=&source=gbs_api",
-    "canonicalVolumeLink": "https://books.google.com/books/about/Pennsylvania_Law_Encyclopedia.html?hl=&id=77RZAAAAYAAJ"
-    },
-    "saleInfo": {
-    "country": "IN",
-    "saleability": "NOT_FOR_SALE",
-    "isEbook": false
-    },
-    "accessInfo": {
-    "country": "IN",
-    "viewability": "NO_PAGES",
-    "embeddable": false,
-    "publicDomain": false,
-    "textToSpeechPermission": "ALLOWED",
-    "epub": {
-    "isAvailable": false
-    },
-    "pdf": {
-    "isAvailable": false
-    },
-    "webReaderLink": "http://play.google.com/books/reader?id=77RZAAAAYAAJ&hl=&source=gbs_api",
-    "accessViewStatus": "NONE",
-    "quoteSharingAllowed": false
-    },
-    "searchInfo": {
-    "textSnippet": "... <b>search</b> for virtually any <b>word</b> or combination of <b>words</b>. (The only exceptions are certain &quot;noise <b>words</b>&quot; such as in, on ... <b>terms</b> must appear somewhere in the document. 8. AND NOT - the first <b>word</b> must be in the document, and the second&nbsp;..."
-    }
-    },
-    {
-    "kind": "books#volume",
-    "id": "OMOwmLgbMfYC",
-    "etag": "e4Sr6GBlWLs",
-    "selfLink": "https://www.googleapis.com/books/v1/volumes/OMOwmLgbMfYC",
-    "volumeInfo": {
-    "title": "Out's Gay & Lesbian Guide to the Web",
-    "authors": [
-    "J. Harrison Fitch"
-    ],
-    "publisher": "Que",
-    "publishedDate": "1997",
-    "description": "Gay and Lesbian Guide to the Web provides gay and lesbians with instant access to vast resources of gay and lesbian information on the Web. Organized as both a directory and how-to/reference guide to the Web, the book shows readers how to use online information for personal growth and political activism. Written for people at all levels of computer skills, Gay and Lesbian Resources Web Directory attempts to reflect the diversity of the gay and lesbian community by charting the entire spectrum of gay and lesbian interests as found on the Web. -- Gargantuan directory of Web sites and gay and lesbian online resources that focuses exclusively on gay and lesbian interests -- Instant connections to information on gay and lesbian organizations, AIDS research updates, gay and lesbian businesses, travel and leisure activities, the arts, health and medical resources, domestic partnership issues, raising children, political activism, coming out issues, gay youth, etc. -- CD-ROM includes Internet Explorer browser software, hyperlinked HTML version of the entire book, and valuable shareware and commercial demo software from online gay resources",
-    "industryIdentifiers": [
-    {
-    "type": "ISBN_10",
-    "identifier": "0789710595"
-    },
-    {
-    "type": "ISBN_13",
-    "identifier": "9780789710598"
-    }
-    ],
-    "readingModes": {
-    "text": false,
-    "image": false
-    },
-    "pageCount": 316,
-    "printType": "BOOK",
-    "categories": [
-    "Computers"
-    ],
-    "maturityRating": "MATURE",
-    "allowAnonLogging": false,
-    "contentVersion": "1.5.3.0.preview.0",
-    "panelizationSummary": {
-    "containsEpubBubbles": false,
-    "containsImageBubbles": false
-    },
-    "imageLinks": {
-    "smallThumbnail": "http://books.google.com/books/content?id=OMOwmLgbMfYC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-    "thumbnail": "http://books.google.com/books/content?id=OMOwmLgbMfYC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-    },
-    "language": "en",
-    "previewLink": "http://books.google.co.in/books?id=OMOwmLgbMfYC&q=search+terms&dq=search+terms&hl=&cd=8&source=gbs_api",
-    "infoLink": "http://books.google.co.in/books?id=OMOwmLgbMfYC&dq=search+terms&hl=&source=gbs_api",
-    "canonicalVolumeLink": "https://books.google.com/books/about/Out_s_Gay_Lesbian_Guide_to_the_Web.html?hl=&id=OMOwmLgbMfYC"
-    },
-    "saleInfo": {
-    "country": "IN",
-    "saleability": "NOT_FOR_SALE",
-    "isEbook": false
-    },
-    "accessInfo": {
-    "country": "IN",
-    "viewability": "NO_PAGES",
-    "embeddable": false,
-    "publicDomain": false,
-    "textToSpeechPermission": "ALLOWED",
-    "epub": {
-    "isAvailable": false
-    },
-    "pdf": {
-    "isAvailable": false
-    },
-    "webReaderLink": "http://play.google.com/books/reader?id=OMOwmLgbMfYC&hl=&source=gbs_api",
-    "accessViewStatus": "NONE",
-    "quoteSharingAllowed": false
-    },
-    "searchInfo": {
-    "textSnippet": "... terms (AND) option. Try it on the form and then see what Lycos returns for “jeep cherokee” when you use the “OR” option and when you use the “AND” option. SYMBOLS YOU CAN&quot;II USE. IN. YOUR. SEARCHES. You can&#39;t use + in <b>search terms</b>. A common&nbsp;..."
-    }
-    },
-    {
-    "kind": "books#volume",
-    "id": "T7nuAAAAMAAJ",
-    "etag": "x4sXSMbRsWE",
-    "selfLink": "https://www.googleapis.com/books/v1/volumes/T7nuAAAAMAAJ",
-    "volumeInfo": {
-    "title": "Hands-on Information Literacy Activities",
-    "authors": [
-    "Jane Birks",
-    "Fiona Hunt"
-    ],
-    "publishedDate": "2003",
-    "description": "This book (and accompanying CD-ROM) is aimed at helping secondary school and college students develop critical information literacy skills.",
-    "industryIdentifiers": [
-    {
-    "type": "OTHER",
-    "identifier": "UOM:39015056686622"
-    }
-    ],
-    "readingModes": {
-    "text": false,
-    "image": false
-    },
-    "pageCount": 156,
-    "printType": "BOOK",
-    "categories": [
-    "CD-ROMs"
-    ],
-    "maturityRating": "NOT_MATURE",
-    "allowAnonLogging": false,
-    "contentVersion": "1.3.1.0.preview.0",
-    "panelizationSummary": {
-    "containsEpubBubbles": false,
-    "containsImageBubbles": false
-    },
-    "imageLinks": {
-    "smallThumbnail": "http://books.google.com/books/content?id=T7nuAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-    "thumbnail": "http://books.google.com/books/content?id=T7nuAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-    },
-    "language": "en",
-    "previewLink": "http://books.google.co.in/books?id=T7nuAAAAMAAJ&q=search+terms&dq=search+terms&hl=&cd=9&source=gbs_api",
-    "infoLink": "http://books.google.co.in/books?id=T7nuAAAAMAAJ&dq=search+terms&hl=&source=gbs_api",
-    "canonicalVolumeLink": "https://books.google.com/books/about/Hands_on_Information_Literacy_Activities.html?hl=&id=T7nuAAAAMAAJ"
-    },
-    "saleInfo": {
-    "country": "IN",
-    "saleability": "NOT_FOR_SALE",
-    "isEbook": false
-    },
-    "accessInfo": {
-    "country": "IN",
-    "viewability": "NO_PAGES",
-    "embeddable": false,
-    "publicDomain": false,
-    "textToSpeechPermission": "ALLOWED",
-    "epub": {
-    "isAvailable": false
-    },
-    "pdf": {
-    "isAvailable": false
-    },
-    "webReaderLink": "http://play.google.com/books/reader?id=T7nuAAAAMAAJ&hl=&source=gbs_api",
-    "accessViewStatus": "NONE",
-    "quoteSharingAllowed": false
-    },
-    "searchInfo": {
-    "textSnippet": "... <b>search term</b>.) c) I am searching for pink AND round. (Write the new search string under the previous one.) d) How many shapes match my <b>search criteria</b>? e) All students with a round pink shape hold it up to be counted. (Once again record&nbsp;..."
-    }
-    },
-    {
-    "kind": "books#volume",
-    "id": "gGdgzgEACAAJ",
-    "etag": "8NxXuApA2z0",
-    "selfLink": "https://www.googleapis.com/books/v1/volumes/gGdgzgEACAAJ",
-    "volumeInfo": {
-    "title": "Easter Word Search for Kids",
-    "subtitle": "Fun and Educational Happy Easter Word Search Book Makes a Great Easter Gift, Challenging Puzzle Word Search Book for Kids",
-    "authors": [
-    "Search word search"
-    ],
-    "publishedDate": "2020-03-09",
-    "description": "This Easter Challenging Puzzle book is a ideal word search game to learn Easter vocabulary and have fun at the same time.Word Search Book Makes a great Easter gift or Easter basket stufferThis Easter word search is perfect for kids and adult. Is a fun gift for Friends, Family.Get your Biggest Word Search Puzzles Book today!",
-    "industryIdentifiers": [
-    {
-    "type": "ISBN_13",
-    "identifier": "9798623131966"
-    }
-    ],
-    "readingModes": {
-    "text": false,
-    "image": false
-    },
-    "pageCount": 106,
-    "printType": "BOOK",
-    "maturityRating": "NOT_MATURE",
-    "allowAnonLogging": false,
-    "contentVersion": "preview-1.0.0",
-    "panelizationSummary": {
-    "containsEpubBubbles": false,
-    "containsImageBubbles": false
-    },
-    "language": "en",
-    "previewLink": "http://books.google.co.in/books?id=gGdgzgEACAAJ&dq=search+terms&hl=&cd=10&source=gbs_api",
-    "infoLink": "http://books.google.co.in/books?id=gGdgzgEACAAJ&dq=search+terms&hl=&source=gbs_api",
-    "canonicalVolumeLink": "https://books.google.com/books/about/Easter_Word_Search_for_Kids.html?hl=&id=gGdgzgEACAAJ"
-    },
-    "saleInfo": {
-    "country": "IN",
-    "saleability": "NOT_FOR_SALE",
-    "isEbook": false
-    },
-    "accessInfo": {
-    "country": "IN",
-    "viewability": "NO_PAGES",
-    "embeddable": false,
-    "publicDomain": false,
-    "textToSpeechPermission": "ALLOWED",
-    "epub": {
-    "isAvailable": false
-    },
-    "pdf": {
-    "isAvailable": false
-    },
-    "webReaderLink": "http://play.google.com/books/reader?id=gGdgzgEACAAJ&hl=&source=gbs_api",
-    "accessViewStatus": "NONE",
-    "quoteSharingAllowed": false
-    },
-    "searchInfo": {
-    "textSnippet": "This Easter Challenging Puzzle book is a ideal word search game to learn Easter vocabulary and have fun at the same time.Word Search Book Makes a great Easter gift or Easter basket stufferThis Easter word search is perfect for kids and ..."
-    }
-    }
-    ]
-    }
+]

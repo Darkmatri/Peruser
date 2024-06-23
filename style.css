@@ -110,7 +110,7 @@ input {
     transform-origin: left;
     transform-style: preserve-3d;
     transform: rotateY(0deg);
-    transition-duration: 2s;
+    transition-duration: .5s;
 }
 
 .front-page {
@@ -179,10 +179,6 @@ input {
     font-weight: 700;
     font-style: oblique;
     font-family: Enchanted;
-    /* text-align: center;
-    background: linear-gradient(90deg, #fe0000, #136aff, #00f148);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
 }
 
 .pages .arrows {
@@ -471,43 +467,43 @@ input {
     position: relative;
 }
 
-.wrapper {
+.cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
     margin: 50px;
 }
 
-.wrapper .books {
+.cards .books {
     padding: 1.5rem;
     /* display: flex;
     flex-direction: column; */
 }
 
-.wrapper .books .cover {
+.cards .books .cover {
     max-width: 250px;
     max-height: 350px;
     position: relative;
     bottom: 20px;
 }
 
-.wrapper .books .details .title,
+.cards .books .details .title,
 h5 {
     font-family: 'DM Serif Display', serif;
 }
 
-.wrapper .books .review {
+.cards .books .review {
     position: relative;
     top: 25px;
     left: -60px;
 }
 
-.wrapper .books #price{
+.cards .books #price{
     color: red;
     text-decoration: line-through;
     opacity: .5;
 }
 
-.wrapper .books .review .fa-solid {
+.cards .books .review .fa-solid {
     color: gold;
 }
 
@@ -526,7 +522,7 @@ h5 {
 
 @media (max-width: 850px) {
 
-    .wrapper .books .review {
+    .cards .books .review {
         left: -35%;
 
     }
@@ -536,7 +532,7 @@ h5 {
 
 @media (max-width: 550px) {
 
-    .wrapper .books .review {
+    .cards .books .review {
         left: -40%;
 
     }
