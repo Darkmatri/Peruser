@@ -436,9 +436,7 @@ input {
 }
 
 .search {
-    position: relative;
-    height: 3rem;
-    top: 25px;
+    margin-top: 25px;
     text-align: center;
 }
 
@@ -460,28 +458,29 @@ input {
     right: -65px;
 }
 
-.search input::placeholder {
-    position: relative;
-}
-
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    grid-gap: 1rem;
 }
 
 .cards .books {
-    padding: 1.5rem;
+    padding: 1rem;
+    width: 250px;
+    height: 350px;
+    cursor: pointer;
 }
 
-.cards .books .details{
-    gap: -1rem;
+.cards .books #cover {
+    max-width: 200px;
+    max-height: 250px;
+    border-radius: 0 15px 15px 0;
+    box-shadow: #000 2px 5px 5px;
+    transition: all .5s ease;
 }
 
-.cards .books .cover {
-    max-width: 250px;
-    max-height: 350px;
-    position: relative;
-    bottom: 20px;
+.cards .books:hover #cover{
+    rotate: -5deg;
 }
 
 .cards .books .details .title,

@@ -2,7 +2,7 @@ let fliterinput = document.getElementById("searchbar");
 let http = new XMLHttpRequest();
 let grid = document.querySelector(".cards");
 
-fetch("/list.json")
+fetch('./list.json')
     .then(res => res.json())
     .then(json => {
         for (let value of json) {
@@ -43,7 +43,7 @@ http.onload = function(){
             out += `
             <div class="books">
                 <div class="details">
-                    <img src="${item.image}" alt="" class="cover">
+                    <img src="${item.image}" alt="" id="cover">
                     <h2 class="title">${item.name}</h2>
                     <h5 class="author">${item.author}</h5>
                     <h3 class="gener">${item.category}</h3>
