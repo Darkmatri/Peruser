@@ -25,12 +25,12 @@ body {
 }
 
 .book {
-    width: 650px;
+    width: 500px;
     height: 95vh;
     position: relative;
     transition-duration: 1s;
     top: 20px;
-    left: 150px;
+    left: 30px;
     perspective: 1500;
 }
 
@@ -100,7 +100,7 @@ input {
 .pages {
     position: absolute;
     background-color: #fff;
-    width: 630px;
+    width: 480px;
     height: 90vh;
     border-radius: 0 15px 15px 0;
     box-shadow: #aaaaaa 3px 8px 5px;
@@ -116,7 +116,7 @@ input {
 
 .front-page {
     position: absolute;
-    width: 620px;
+    width: 480px;
     height: 70vh;
     box-sizing: border-box;
     padding: 1rem;
