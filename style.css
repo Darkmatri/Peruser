@@ -25,12 +25,12 @@ body {
 }
 
 .book {
-    width: 550px;
+    width: 650px;
     height: 95vh;
     position: relative;
     transition-duration: 1s;
     top: 20px;
-    left: 20px;
+    left: 150px;
     perspective: 1500;
 }
 
@@ -48,6 +48,7 @@ input {
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 450px;
     background-image: url(./images/cover1.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -64,7 +65,7 @@ input {
 .front-cover label {
     width: 100%;
     height: 100%;
-    cursor: pointer;
+    cursor: hand;
     position: absolute;
 }
 
@@ -99,7 +100,7 @@ input {
 .pages {
     position: absolute;
     background-color: #fff;
-    width: 530px;
+    width: 630px;
     height: 90vh;
     border-radius: 0 15px 15px 0;
     box-shadow: #aaaaaa 3px 8px 5px;
@@ -115,9 +116,8 @@ input {
 
 .front-page {
     position: absolute;
-    width: 500px;
+    width: 620px;
     height: 70vh;
-    backface-visibility: hidden;
     box-sizing: border-box;
     padding: 1rem;
 }
@@ -458,49 +458,59 @@ input {
     right: -65px;
 }
 
-.cards {
+#books {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
-    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    justify-content: center;
+}
+#books .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+    width: 300px;
+    height: auto;
 }
 
-.cards .books {
-    padding: 1rem;
-    width: 250px;
-    height: 350px;
+.cards #books #cover {
+    max-width: 200px;
+    max-height: 350px;
+    transition: all .5s ease;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.cards #books #cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     cursor: pointer;
 }
-
-.cards .books #cover {
-    max-width: 200px;
-    max-height: 250px;
-    border-radius: 0 15px 15px 0;
-    box-shadow: #000 2px 5px 5px;
-    transition: all .5s ease;
+.details #cover:hover{
+    transform: scale(1.1);
+    transition: all .3s ease;
+    padding-bottom: 10px;
 }
 
-.cards .books:hover #cover{
-    rotate: -5deg;
-}
-
-.cards .books .details .title,
+.cards #books .details .title,
 h5 {
     font-family: 'DM Serif Display', serif;
 }
 
-.cards .books .review {
+.cards #books .review {
     position: relative;
     top: 25px;
     left: -60px;
 }
 
-.cards .books #price{
+.cards #books #price {
     color: red;
     text-decoration: line-through;
     opacity: .5;
 }
 
-.cards .books .review .fa-solid {
+.cards #books .review .fa-solid {
     color: gold;
 }
 
@@ -519,17 +529,17 @@ h5 {
 
 @media (max-width: 850px) {
 
-    .cards .books .review {
+    .cards #books .review {
         left: -35%;
 
     }
- 
+
 
 }
 
 @media (max-width: 550px) {
 
-    .cards .books .review {
+    .cards #books .review {
         left: -40%;
 
     }
