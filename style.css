@@ -114,6 +114,10 @@ input {
     transition-duration: .5s;
 }
 
+#close{
+    display: none;
+}
+
 .front-page {
     position: absolute;
     width: 480px;
@@ -516,6 +520,57 @@ h5 {
 
 @media (max-width: 1040px) {
 
+    .book{
+        width: 400px;
+        height: 90vh;
+    }
+
+    .pages{
+        width: 380px;
+        height: 84vh;
+    }
+
+    .front-page{
+        width: 400px;
+        height: 70vh;
+    }
+    .front-page h2 {
+        font-size: 20px;
+    }
+    .front-page h6 {
+        font-size: 15px;
+    }
+    .front-page p {
+        font-size: 20px;
+    }
+    .front-page span {
+        font-size: 30px;
+    }
+
+    .welcome-script img {
+        height: 450px;
+        transform: rotate(90deg);
+        top: 60px;
+        right: -70px;
+    }
+    .text {
+        width: 340px;
+        height: 67vh;
+        font-size: 12px;
+        right: 50px;
+        top: 30px;
+        overflow: hidden;
+        color: #fff;
+    }
+
+    .text h2 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    #checkbox:checked~.book {
+        transform: translateX(500px);
+    }
+
     .search input {
         left: 5%;
         width: 85%;
@@ -529,19 +584,146 @@ h5 {
 
 @media (max-width: 850px) {
 
+    .book{
+        width: 360px;
+        height: 80vh;
+        left: 22%;
+    }
+    .pages{
+        width: 350px;
+        height: 74vh;
+    }
+
+    .front-page{
+        width: 350px;
+        height: 60vh;
+    }
+
+    .front-page h2 {
+        font-size: 22px;
+    }
+    .front-page h6 {
+        font-size: 22px;
+    }
+    .front-page p {
+        font-size: 16px;
+    }
+
+    .welcome-script img {
+        display: none;
+    }
+    .text {
+        display: none;
+    }
+
+    #checkbox:checked~.book {
+        transform: translateX(200px);
+    }
+
     .cards #books .review {
         left: -35%;
 
     }
 
+    .background {
+        background-size: cover;
+    }
 
 }
 
-@media (max-width: 550px) {
+@media (max-width: 650px) {
+
+    #checkbox:checked~.book {
+        left: -10%;
+    }
 
     .cards #books .review {
         left: -40%;
 
     }
 
+}
+
+@media (max-width: 550px) {
+    .book{
+        left: 10%;
+    }
+
+    #checkbox:checked~.book {
+        left: -25%;
+    }
+
+    .cards #books .review {
+        left: -45%;
+
+    }
+
+}
+
+@media (max-width: 450px) {
+
+    .book{
+        left: 5%;
+    }
+
+    #checkbox:checked~.book {
+        left: -45%;
+    }
+
+    #close{
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    #close:checked ~ .book .front-cover {
+        transition: transform 1.5s, z-index 0.5s 0.5s;
+        transform: rotateY(0deg);
+    }
+
+    input[type="radio"]#close {
+        display: none;
+    }
+
+    .cards #books .review {
+        left: -50%;
+
+    }
+    
+}
+
+@media (max-width: 350px) {
+
+    .book{
+        width: 300px;
+        height: 90vh;
+    }
+
+    .pages{
+        width: 280px;
+        height: 84vh;
+    }
+
+    .front-page{
+        width: 260px;
+        height: 70vh;
+    }
+    .front-page h2 {
+        font-size: 18px;
+    }
+    .front-page h6 {
+        font-size: 12px;
+    }
+    .front-page p {
+        font-size: 14px;
+    }
+
+    .cards #books .review {
+        left: -50%;
+
+    }
+    
 }
