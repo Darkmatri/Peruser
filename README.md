@@ -60,7 +60,7 @@ The live version of the application can be accessed [here](https://darkmatri.git
 ## 📊 FlowChart <a name="flowchart"></a>
 
 <p align="center">
-  <img width=400px height=500px src="/images/scroll.png" alt="Flowchart">
+  <img width=400px height=500px src="/images/Flow chart.png" alt="Flowchart">
 </p>
 
 ---
