@@ -125,7 +125,7 @@ To run this project, you need the following:
 <img width=500px height=900px src="/images/readme/mobo1.png" alt="Mobile Version">
 <img width=400px height=500px src="/images/readme/mobo2.png" alt="Mobile Version">
 <img width=400px height=500px src="/images/readme/mob-search.png" alt="Mobile Version">
-<img width=400px height=500px src="/images/readme/mob-search2.png" alt="Mobile Version">
+<img width=400px height=500px src="/images/readme/mobo-search2.png" alt="Mobile Version">
 
 ---
 
