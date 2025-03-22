@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://darkmatri.github.io/Peruser/" rel="noopener">
-    <img width=900px height=500px src="/images/cover1.jpg" alt="Peruser Home Page">
+    <img width=900px height=500px src="/images/readme/home.png" alt="Peruser Home Page">
   </a>
 </p>
 
@@ -113,18 +113,19 @@ To run this project, you need the following:
 ## 📸 Screenshots <a name="screenshots"></a>
 
 ### Home Page
-<img width=900px height=500px src="/images/cover1.jpg" alt="Home Page">
+<img width=900px height=500px src="/images/readme/desktop.png" alt="Home Page">
 
 ### Search Page
-<img width=900px height=500px src="/images/action.jpg" alt="Search Page">
+<img width=900px height=500px src="/images/readme/desk-search1.png" alt="Search Page">
 
 ### Categories
-<img width=700px height=500px src="/images/classic.jpg" alt="Categories">
+<img width=700px height=500px src="/images/readme/desk-search2.png" alt="Categories">
 
 ### Mobile Version
-<img width=500px height=900px src="/images/3.png" alt="Mobile Version">
-<img width=400px height=500px src="/images/11.png" alt="Mobile Version">
-<img width=400px height=500px src="/images/12.png" alt="Mobile Version">
+<img width=500px height=900px src="/images/readme/mobo1.png" alt="Mobile Version">
+<img width=400px height=500px src="/images/readme/mobo2.png" alt="Mobile Version">
+<img width=400px height=500px src="/images/readme/mob-search.png" alt="Mobile Version">
+<img width=400px height=500px src="/images/readme/mob-search2.png" alt="Mobile Version">
 
 ---
 

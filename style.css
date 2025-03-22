@@ -664,6 +664,18 @@ h5 {
 
     .book{
         left: 5%;
+        width: 320px;
+        height: 80vh;
+    }
+
+    .pages{
+        width: 300px;
+        height: 74vh;
+    }
+
+    .front-page{
+        width: 280px;
+        height: 60vh;
     }
 
     #checkbox:checked~.book {
