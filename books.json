@@ -3,7 +3,7 @@
         "id": 1,
         "image": "./images/books/1.jpg",
         "name": "Don Quixote",
-        "category": "adventure",
+        "category": "adventure, action",
         "author": "Miguel de Cervantes",
         "price": "$200",
         "span": "400"
@@ -12,7 +12,7 @@
         "id": 2,
         "image": "./images/books/2.jpg",
         "name": "The Three Musketeers",
-        "category": "adventure",
+        "category": "adventure, action",
         "author": "Alexandre Dumas",
         "price": "$200",
         "span": "400"
@@ -21,7 +21,7 @@
         "id": 3,
         "image": "./images/books/3.jpg",
         "name": "Treasure Island",
-        "category": "adventure",
+        "category": "adventure, action",
         "author": "Robert Louis Stevenson",
         "price": "$200",
         "span": "400"
@@ -30,7 +30,7 @@
         "id": 4,
         "image": "./images/books/4.jpg",
         "name": "King Solomon's Mines",
-        "category": "adventure",
+        "category": "adventure, action",
         "author": "H. Rider Haggard",
         "price": "$200",
         "span": "400"
@@ -39,7 +39,7 @@
         "id": 5,
         "image": "./images/books/5.jpg",
         "name": "Journey to the Center of the Earth",
-        "category": "adventure",
+        "category": "adventure, action",
         "author": "Jules Verne",
         "price": "$200",
         "span": "400"
@@ -453,7 +453,7 @@
         "id": 51,
         "image": "./images/books/51.jpg",
         "name": "Frankenstein",
-        "category": "sifi",
+        "category": "science-fi",
         "author": "John Grant",
        "price": "$200",
         "span": "400"
@@ -462,7 +462,7 @@
         "id": 52,
         "image": "./images/books/52.jpg",
         "name": "Ready Player One",
-        "category": "sifi",
+        "category": "science-fi",
         "author": "Ernest Cline",
        "price": "$200",
         "span": "400"
@@ -471,7 +471,7 @@
         "id": 53,
         "image": "./images/books/53.jpg",
         "name": "The Martian",
-        "category": "sifi",
+        "category": "science-fi",
         "author": "Andy Weir",
        "price": "$200",
         "span": "400"
@@ -480,7 +480,7 @@
         "id": 54,
         "image": "./images/books/54.jpg",
         "name": "The Time Machine",
-        "category": "sifi",
+        "category": "science-fi",
         "author": "Paul J. Nahin",
        "price": "$200",
         "span": "400"
@@ -489,7 +489,7 @@
         "id": 55,
         "image": "./images/books/55.jpg",
         "name": "Dune",
-        "category": "sifi",
+        "category": "science-fi",
         "author": "Frank Herbert",
        "price": "$200",
         "span": "400"
@@ -588,7 +588,7 @@
         "id": 66,
         "image": "./images/books/66.jpg",
         "name": "Helen keller",
-        "category": "auto",
+        "category": "autobiography",
         "author": "Jerry Pinto",
        "price": "$200",
         "span": "400"
@@ -597,7 +597,7 @@
         "id": 67,
         "image": "./images/books/67.webp",
         "name": "Gandhi Before India",
-        "category": "auto",
+        "category": "autobiography",
         "author": " Ramachandra Guha",
         "price": "$200",
         "span": "400"
@@ -606,7 +606,7 @@
         "id": 68,
         "image": "./images/books/68.webp",
         "name": "Wings Of Fire",
-        "category": "auto",
+        "category": "autobiography",
         "author": "A.P.J Abdul Kalam",
        "price": "$200",
         "span": "400"
@@ -615,7 +615,7 @@
         "id": 69,
         "image": "./images/books/69.webp",
         "name": "Autobiography Of A Yogi",
-        "category": "auto",
+        "category": "autobiography",
         "author": "paramahansa yogananda",
        "price": "$200",
         "span": "400"
@@ -624,7 +624,7 @@
         "id": 70,
         "image": "./images/books/70.webp",
         "name": "My Life: An Illustrated Autobiography",
-        "category": "auto",
+        "category": "autobiography",
         "author": "A.P.J Abdul Kalam",
         "price": "$200",
         "span": "400"
@@ -678,7 +678,7 @@
         "id": 76,
         "image": "./images/books/76.jpg",
         "name": "TNPSC-Study-Material-Chemistry",
-        "category": "edu",
+        "category": "education",
         "author": " ",
        "price": "$200",
         "span": "400"
@@ -687,7 +687,7 @@
         "id": 77,
         "image": "./images/books/77.jpg",
         "name": "Educational Leadership",
-        "category": "edu",
+        "category": "education",
         "author": "Harry Tomlinson",
        "price": "$200",
         "span": "400"
@@ -696,7 +696,7 @@
         "id": 78,
         "image": "./images/books/78.jpg",
         "name": "DEPARTMENT OF FOOD CHEMISTRY AND NUTRITION",
-        "category": "edu",
+        "category": "education",
         "author": "Food Science",
        "price": "$200",
         "span": "400"
@@ -705,7 +705,7 @@
         "id": 79,
         "image": "./images/books/79.jpg",
         "name": "Introduction to Human Nutrition",
-        "category": "edu",
+        "category": "education",
         "author": "Michael J Gibney",
        "price": "$200",
         "span": "400"
@@ -714,7 +714,7 @@
         "id": 80,
         "image": "./images/books/80.jpg",
         "name": "Encyclopedia of Diets",
-        "category": "edu",
+        "category": "education",
         "author": " ",
        "price": "$200",
         "span": "400"
